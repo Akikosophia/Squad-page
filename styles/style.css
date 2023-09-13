@@ -1,16 +1,34 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing:border-box
+body{
+    background:rgb(2,0,36);
+    background: linear-gradient(319deg, rgba(2,0,36,1) 20%, rgba(8,8,57,1) 62%, rgba(27,14,41,1) 92%); 
+    color:antiquewhite;
+}
+header{
+    text-align: center;
+    padding-top: 1.15em;
+    padding-bottom: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
-.quote{
-    text-align: left;
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+article{
+    align-self: center;
+    align-items: center;
+    max-width: 70%;
+}
+
+.content{
+    text-align: center;
+    align-self: center;
 }
 
 .foto{
-    background-image: url(/assets/dummy.jfif);
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
+    max-width: 100%;
+    max-height: 70%;
 }
+
