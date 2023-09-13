@@ -1,7 +1,7 @@
 Hadil: When you turn and face the sunshine all the shadows fall behind you.
 Metehan: Today is your chance to build tomorrow.
 Damian: Van de dokter mag ik maar 3 biertjes, nu heb ik 5 dokters.
-Inez: My mind is like my browser, 19 tabs open and i have no idea wehre the music is coming from.
+Inez: My mind is like my browser, 19 tabs open and i have no idea where the music is coming from.
 Robby: I never sleep, cause sleep is the cousin of death.
 Patrick: Home is where the heart is.
 Annelinde: Life has no ctrl + z.
@@ -20,3 +20,5 @@ Justin: Learn to love the darkness so we can see ourselves in the light.
 Kita: 
 Kiko:
 Nevayo: It`s not about whether i can. I have to do it.
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ

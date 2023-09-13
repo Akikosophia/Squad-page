@@ -1,9 +1,10 @@
-body{
-    background:rgb(2,0,36);
-    background: linear-gradient(319deg, rgba(2,0,36,1) 20%, rgba(8,8,57,1) 62%, rgba(27,14,41,1) 92%); 
-    color:antiquewhite;
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(319deg, rgba(2, 0, 36, 1) 20%, rgba(8, 8, 57, 1) 62%, rgba(27, 14, 41, 1) 92%);
+    color: antiquewhite;
 }
-header{
+
+header {
     text-align: center;
     padding-top: 1.15em;
     padding-bottom: 2em;
@@ -11,24 +12,35 @@ header{
     font-family: sans-serif;
 }
 
-main{
+main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
-article{
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+article {
     align-self: center;
     align-items: center;
     max-width: 70%;
 }
 
-.content{
+.content {
     text-align: center;
     align-self: center;
+    padding: 1.2em;
 }
 
-.foto{
-    max-width: 100%;
+.foto {
+    max-width: 70%;
     max-height: 70%;
 }
 
+.text {
+    max-width: 70%;
+}
