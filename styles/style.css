@@ -1,3 +1,21 @@
+@media screen and (max-width:600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
 body {
     background: rgb(2, 0, 36);
     background: linear-gradient(319deg, rgba(2, 0, 36, 1) 20%, rgba(8, 8, 57, 1) 62%, rgba(27, 14, 41, 1) 92%);
@@ -9,31 +27,20 @@ header {
     padding-top: 1.15em;
     padding-bottom: 2em;
     font-weight: bold;
-    font-family: sans-serif;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-@media (max-width: 800px) {
-    .flex-container {
-        flex-direction: column;
-    }
+    font-family: sans-serif; /*CUSTOM FONT HERE*/
 }
 
 article {
-    align-self: center;
-    align-items: center;
-    max-width: 70%;
+    display: flex;
+    max-width: 250px;
+    padding: 1.2em;
+    
 }
 
+
 .content {
-    text-align: center;
-    align-self: center;
-    padding: 1.2em;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .foto {
