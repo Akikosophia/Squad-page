@@ -20,6 +20,7 @@ header {
         place-items: center;
     }
 }
+/*Makes it so that there is 1 row on small devices*/
 
 @media (min-width:641px){
     main{
@@ -28,6 +29,8 @@ header {
         place-items:center;
     }
 }
+/*Makes it so that there are 2 rows on tablets and landscape phones*/
+
 @media (min-width:961px) {
     main {
         display: grid;
@@ -35,6 +38,7 @@ header {
         place-items: center;
     }
 }
+/*Makes it so that there are 3 rows on small laptops, landscape tablets*/
 
 @media (min-width:1025px){
     main {
@@ -43,25 +47,28 @@ header {
         place-items: center;
     }
 }
+/*Makes it so that there are 4 rows on bigger screens*/
+
 article {
     display: grid;
     max-width: 250px;
     padding: 1.2em;
 
 }
-
+/*spacing, and max width of each card*/
 
 .content {
     border: 1px solid white;
     border-radius: 5px;
 }
-
+/*shows the border of each card*/
 .foto img {
     max-width: 250px;
     max-height: 250px;
 }
-
+/*makes the pictures 250px x 250px*/
 .text {
     max-width: 250px;
     text-align: center;
 }
+/*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
