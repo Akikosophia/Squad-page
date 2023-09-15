@@ -1,18 +1,16 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:450px) {
     main {
-        display: flex;
-        flex-direction: column;
+        display: grid;
         text-align: center;
-        flex-wrap: wrap;
+        grid-column: 1;
     }
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:450px) {
     main {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 20em);
         text-align: center;
-        flex-wrap: wrap;
     }
 }
 
@@ -34,7 +32,7 @@ article {
     display: flex;
     max-width: 250px;
     padding: 1.2em;
-    
+
 }
 
 
@@ -43,9 +41,9 @@ article {
     border-radius: 5px;
 }
 
-.foto {
-    max-width: 70%;
-    max-height: 70%;
+.foto img {
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .text {
