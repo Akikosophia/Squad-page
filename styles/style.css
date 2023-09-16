@@ -1,17 +1,25 @@
+/* indie-flower-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'indieflower';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/styles/indie-flower-v21-latin-regular.woff2') format('woff2');
+}
+
 body {
     background-color: #ffffff;
     background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
     color: #000F55;
     font-weight: bold;
-    font-family: serif;
-    /*CUSTOM FONT HERE*/
+    font-family: indieflower;
 }
 
 header {
     text-align: center;
     padding-top: 1.15em;
     padding-bottom: 2em;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 @media (min-width:320px) {
@@ -65,7 +73,6 @@ article {
 
 .content {
     border: 1px solid #000F55;
-    ;
     border-radius: 5px;
 }
 
@@ -74,9 +81,8 @@ article {
 a {
     text-decoration: none;
     color: #000F55;
-    font-weight: bold;
-    font-family: serif;
-    /*CUSTOM FONT HERE*/
+    font-weight: bolder;
+    font-family: indieflower;
     cursor: grabbing;
 }
 
