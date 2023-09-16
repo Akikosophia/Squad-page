@@ -1,7 +1,8 @@
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(319deg, rgba(2, 0, 36, 1) 20%, rgba(8, 8, 57, 1) 62%, rgba(27, 14, 41, 1) 92%);
-    color: antiquewhite;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+    color: #000F55;
+    font-weight: bold;
     font-family: serif;
     /*CUSTOM FONT HERE*/
 }
@@ -20,15 +21,17 @@ header {
         place-items: center;
     }
 }
+
 /*Makes it so that there is 1 row on small devices*/
 
-@media (min-width:641px){
-    main{
+@media (min-width:641px) {
+    main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        place-items:center;
+        place-items: center;
     }
 }
+
 /*Makes it so that there are 2 rows on tablets and landscape phones*/
 
 @media (min-width:961px) {
@@ -38,15 +41,17 @@ header {
         place-items: center;
     }
 }
+
 /*Makes it so that there are 3 rows on small laptops, landscape tablets*/
 
-@media (min-width:1025px){
+@media (min-width:1025px) {
     main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         place-items: center;
     }
 }
+
 /*Makes it so that there are 4 rows on bigger screens*/
 
 article {
@@ -55,29 +60,37 @@ article {
     padding: 1.2em;
 
 }
+
 /*spacing, and max width of each card*/
 
 .content {
-    border: 1px solid white;
+    border: 1px solid #000F55;
+    ;
     border-radius: 5px;
 }
+
 /*shows the border of each card*/
 
-a{
+a {
     text-decoration: none;
-    color: antiquewhite;
-    font-family: serif; /*CUSTOM FONT HERE*/
+    color: #000F55;
+    font-weight: bold;
+    font-family: serif;
+    /*CUSTOM FONT HERE*/
     cursor: grabbing;
 }
+
 /*removes text decoration and makes it look like plain text, also makes the cursor like a paw*/
 
 .foto img {
     max-width: 250px;
     max-height: 250px;
 }
+
 /*makes the pictures 250px x 250px*/
 .text {
     max-width: 250px;
     text-align: center;
 }
+
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
