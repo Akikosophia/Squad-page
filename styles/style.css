@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #380505;
     background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
     color: #000F55;
     font-weight: bold;
@@ -100,3 +100,11 @@ a {
 }
 
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
+.content:hover {
+    background-color#380505}
+}
+
+.content:hover {
+    height: 400px;
+    width: 300px;
+}
