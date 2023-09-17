@@ -8,8 +8,8 @@
 }
 
 body {
-    background-color: #380505;
-    background-image: url("https://www.transparenttextures.com/patterns/textured-paper.png");
+    background-color: #737373;
+    background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");
     color: #000F55;
     font-weight: bold;
     font-family: indieflower;
@@ -62,6 +62,11 @@ header {
 
 /*Makes it so that there are 4 rows on bigger screens*/
 
+
+header{
+    background-color: black;
+    color:white;
+}
 article {
     display: grid;
     max-width: 250px;
@@ -72,8 +77,10 @@ article {
 /*spacing, and max width of each card*/
 
 .content {
-    border: 1px solid #000F55;
-    border-radius: 5px;
+    background-color: #a6a6a6;
+    background-image: url("https://www.transparenttextures.com/patterns/light-paper-fibers.png");
+    border: 1px solid black;
+    border-radius: 0.3em;
 }
 
 /*shows the border of each card*/
@@ -94,17 +101,26 @@ a {
 }
 
 /*makes the pictures 250px x 250px*/
+
 .text {
     max-width: 250px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
-.content:hover {
-    background-color#380505}
+
+img{
+animation: img 0.75s infinite;
 }
 
-.content:hover {
-    height: 400px;
-    width: 300px;
-}
+@keyframes img {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+/*Animates the image swing*/
