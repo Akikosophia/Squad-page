@@ -108,10 +108,11 @@ a {
 /*makes the pictures 250px x 250px*/
 
 .text {
-    max-width: 250px;
+    max-width: inherit;
     text-align: center;
     background-color: black;
     color: white;
+
 }
 
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
