@@ -13,6 +13,7 @@ body {
     color: #000F55;
     font-weight: bold;
     font-family: indieflower;
+    margin: 0;
 }
 
 
@@ -21,6 +22,7 @@ body {
         display: grid;
         grid-column: 1;
         place-items: center;
+        padding-top: 5em;
     }
 }
 
@@ -31,6 +33,7 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
+        padding-top: 5em;
     }
 }
 
@@ -41,6 +44,7 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         place-items: center;
+        padding-top: 5em;
     }
 }
 
@@ -51,20 +55,22 @@ body {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         place-items: center;
+        padding-top: 5em;
     }
 }
 
 /*Makes it so that there are 4 rows on bigger screens*/
 
 
-header {
+nav {
     background-color: #000000;
     background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
     color: #e0868d;
-    text-align: right;
-    padding-right: 2.5em;
-    margin-top: 0;
+    position: sticky;
     top:0;
+    text-align: right;
+    padding-right: 5em;
+    z-index: 1;
 }
 
 /*Header changes like text right color etc*/
@@ -73,7 +79,6 @@ article {
     display: grid;
     max-width: 250px;
     padding: 1.2em;
-
 }
 
 /*spacing, and max width of each card*/
@@ -114,18 +119,21 @@ a {
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
 
 img {
-    animation: img 5s infinite ease-in-out;
+    animation-direction: paused;
+}
+
+a:hover img, a:focus-within img{
+    animation: img 2s infinite ease-in-out;
+    animation-play-state: running;
 }
 
 @keyframes img {
     0% {
         transform: rotate(-5deg);
     }
-
     50% {
         transform: rotate(20deg);
     }
-
     100% {
         transform: rotate(-5deg);
     }
