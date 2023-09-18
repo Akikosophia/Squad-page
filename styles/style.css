@@ -63,10 +63,15 @@ header {
 /*Makes it so that there are 4 rows on bigger screens*/
 
 
-header{
+header {
     background-color: black;
-    color:white;
+    color: white;
+    text-align: right;
+    padding-right: 2.5em;
 }
+
+/*Header changes like text right color etc*/
+
 article {
     display: grid;
     max-width: 250px;
@@ -111,14 +116,22 @@ a {
 
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
 
-img{
-animation: img 5s infinite ease-in-out;
+img {
+    animation: img 5s infinite ease-in-out;
 }
 
 @keyframes img {
-    0% { transform: rotate(-5deg); }
-    50% { transform: rotate(20deg); }
-    100% { transform: rotate(-5deg); }
-  }
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
 
 /*Animates the image swing*/
