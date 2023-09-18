@@ -99,14 +99,12 @@ a {
 }
 
 /*removes text decoration and makes it look like plain text, also makes the cursor like a paw*/
-
 .foto img {
     max-width: 250px;
     max-height: 250px;
 }
 
 /*makes the pictures 250px x 250px*/
-
 .text {
     max-width: inherit;
     text-align: center;
