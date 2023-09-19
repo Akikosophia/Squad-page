@@ -8,9 +8,8 @@
 }
 
 body {
-    background-color: #737373;
-    background-image: url("https://www.transparenttextures.com/patterns/project-paper.png");
-    color: #000F55;
+    background: rgb(235, 249, 250);
+    background: linear-gradient(194deg, rgba(235, 249, 250, 1) 0%, rgba(205, 228, 239, 1) 12%, rgba(132, 166, 214, 1) 50%, rgba(67, 130, 187, 1) 80%, rgba(32, 91, 147, 1) 100%);
     font-weight: bold;
     font-family: indieflower;
     margin: 0;
@@ -63,11 +62,10 @@ body {
 
 
 nav {
-    background-color: #000000;
-    background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
-    color: #e0868d;
+    background-color: #E4CEE0;
+    color: #A15D98;
     position: sticky;
-    top:0;
+    top: 0;
     text-align: right;
     padding-right: 5em;
     z-index: 1;
@@ -84,8 +82,7 @@ article {
 /*spacing, and max width of each card*/
 
 .content {
-    background-color: #a6a6a6;
-    background-image: url("https://www.transparenttextures.com/patterns/light-paper-fibers.png");
+    background-color: #e6f4f5;
     border: 1px solid black;
     border-radius: 0.3em;
 }
@@ -94,7 +91,7 @@ article {
 
 a {
     text-decoration: none;
-    color: #e0868d;
+    color: #A15D98;
     font-weight: bolder;
     font-family: indieflower;
     cursor: grabbing;
@@ -110,9 +107,8 @@ a {
 .text {
     max-width: inherit;
     text-align: center;
-    background-color: #000000;
-    background-image: url("https://www.transparenttextures.com/patterns/black-linen-2.png");
-    color: #e0868d;
+    background-color: #E4CEE0;
+    color: #A15D98;
 
 }
 
@@ -122,7 +118,8 @@ img {
     animation-direction: paused;
 }
 
-a:hover img, a:focus-within img{
+a:hover img,
+a:focus-within img {
     animation: img 2s infinite ease-in-out;
     animation-play-state: running;
 }
@@ -131,9 +128,11 @@ a:hover img, a:focus-within img{
     0% {
         transform: rotate(0deg);
     }
+
     50% {
         transform: rotate(5deg);
     }
+
     100% {
         transform: rotate(0deg);
     }
