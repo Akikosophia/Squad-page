@@ -129,13 +129,13 @@ a:hover img, a:focus-within img{
 
 @keyframes img {
     0% {
-        transform: rotate(-5deg);
+        transform: rotate(0deg);
     }
     50% {
-        transform: rotate(20deg);
+        transform: rotate(5deg);
     }
     100% {
-        transform: rotate(-5deg);
+        transform: rotate(0deg);
     }
 }
 
