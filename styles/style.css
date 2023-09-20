@@ -116,9 +116,6 @@ a {
 
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
 
-img {
-    animation-direction: reverse;
-}
 
 a:hover img,
 a:focus-within img {
