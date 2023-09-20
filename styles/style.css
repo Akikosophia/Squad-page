@@ -12,8 +12,7 @@ body {
     background: rgb(235, 249, 250);
     background: linear-gradient(194deg, rgba(235, 249, 250, 1) 0%, rgba(205, 228, 239, 1) 12%, rgba(132, 166, 214, 1) 50%, rgba(67, 130, 187, 1) 80%, rgba(32, 91, 147, 1) 100%);
     font-weight: bold;
-    font-family: indieflower;
-    margin: 0;
+    font-family: 'Indie Flower', cursive;    margin: 0;
 }
 
 /*Body changes like backbround font margins and font*/
@@ -95,8 +94,7 @@ a {
     text-decoration: none;
     color: #A15D98;
     font-weight: bolder;
-    font-family: indieflower;
-    cursor: grabbing;
+    font-family: 'Indie Flower', cursive;    cursor: grabbing;
 }
 
 /*removes text decoration and makes it look like plain text, also makes the cursor like a paw*/
