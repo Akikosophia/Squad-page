@@ -7,6 +7,8 @@
     src: url('/assets/indie-flower-v21-latin-regular.woff2') format('woff2');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 /*Font imported front google API*/
 body {
     background: rgb(235, 249, 250);
