@@ -117,27 +117,38 @@ a {
 /*centers text, makes the max width of it 250px, this makes it fit perfectly under the picture*/
 
 img {
-    animation: img 2s infinite ease-in-out;
     animation-direction: reverse;
 }
 
 a:hover img,
 a:focus-within img {
-    animation: img 2s infinite ease-in-out;
+    animation: img 0.5s infinite ease-in-out;
     animation-play-state: running;
 }
 
 @keyframes img {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(5deg);
     }
 
-    50% {
+    25% {
+        transform: rotate(5deg);
+    }
+
+    26% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    76% {
         transform: rotate(5deg);
     }
 
     100% {
-        transform: rotate(0deg);
+        transform: rotate(5deg);
     }
 }
 
