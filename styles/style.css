@@ -1,19 +1,6 @@
-/* indie-flower-regular - latin */
-@font-face {
-    font-display: swap;
-    font-family: 'indieflower';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/assets/indie-flower-v21-latin-regular.woff2') format('woff2');
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
-/*Font imported front google API*/
 body {
     background-color: #140D21;
     font-weight: bold;
-    font-family: 'Indie Flower', cursive;    
     margin: 0;
     padding-bottom: 8em;
 }
@@ -85,7 +72,7 @@ h3 {
 .foto {
     background-color: #3486AD;
     border-radius: 5px;
-    
+
 }
 
 .pink {
@@ -169,7 +156,8 @@ a:focus-within img {
         position: relative;
     }
 
-    nav h1, h2 {
+    nav h1,
+    h2 {
         text-align: center;
         font-size: 1.7em;
     }
@@ -190,7 +178,8 @@ a:focus-within img {
         position: relative;
     }
 
-    nav h1, h2 {
+    nav h1,
+    h2 {
         text-align: center;
         font-size: 2em;
     }
@@ -207,11 +196,13 @@ a:focus-within img {
         place-items: center;
         padding-top: 5em;
     }
+
     nav {
         position: sticky;
     }
 
-    nav h1, h2 {
+    nav h1,
+    h2 {
         text-align: right;
         font-size: 3em;
     }
@@ -231,7 +222,8 @@ a:focus-within img {
         position: sticky;
     }
 
-    nav h1, h2 {
+    nav h1,
+    h2 {
         text-align: right;
         font-size: 4.5em;
     }
